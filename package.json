@@ -1,0 +1,35 @@
+{
+  "name": "express-server-boilerplate",
+  "version": "1.0.0",
+  "description": "An Express.js server boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilrichter/express-server-boilerplate.git"
+  },
+  "author": "neilrichter <me@neilrichter.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neilrichter/express-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/neilrichter/express-server-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "parse-comments": "^0.4.3",
+    "pg": "^7.6.0",
+    "recursive-readdir-sync": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
