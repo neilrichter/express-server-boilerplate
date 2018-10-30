@@ -5,6 +5,8 @@
 This server will try to connect to a postgresql server with the configuration file you provided in `config/index.js`.
 Rename `config/index.js.dist` to `config/index.js` and fill in your credentials and database name.
 
+Run `npm i` to install the dependencies.
+
 Run `npm run dev` to run the server. It will reload on each file modification.
 
 ## Controllers
